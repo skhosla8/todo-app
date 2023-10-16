@@ -1,0 +1,60 @@
+// partials
+@use './components/header';
+@use './components/todolist';
+@use './components//todoitem';
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Kumbh+Sans:wght@200;600&display=swap');
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.body-dark {
+  background-color: #171823;
+}
+
+.body-light {
+  background-color: #E3E4F1;
+}
+
+.card-dark {
+  background-color: hsl(235, 24%, 19%);
+  color: #C8CBE7;
+}
+
+.card-light {
+  background-color: #FFFFFF;
+  color: #494C6B;
+}
+
+.box-shadow-light {
+  box-shadow: 10px 60px 20px rgba(0, 0, 0, 0.2);
+}
+
+.box-shadow-dark {
+  box-shadow: 10px 60px 20px rgba(0, 0, 0, 0.5);
+}
+
+.button-light {
+  background-color: rgba(200, 203, 231, 0.5);
+  color: #000000;
+
+  &:hover {
+    font-weight: 700;
+  }
+}
+
+.button-dark {
+  background-color: #171823;
+  color: #767992;
+
+  &:hover {
+    color: #C8CBE7;
+    font-weight: 700;
+  }
+}
